@@ -45,7 +45,7 @@ Restaurants often struggle with managing menu items, tracking reservations, and 
 
 ## 🗂️Project structure
 Below is a suggested/typical Django project structure. Replace the placeholders (project_name, app_name) with the actual names in your repo or let me fetch the exact tree and I'll update this.
-
+```
 Django-project/
 ├── manage.py
 ├── README.md
@@ -74,9 +74,10 @@ Django-project/
 ├── tests/                    
 │   ├── __init__.py
 │   ├── test_models.py                    
-
+```
 
 ## 🚀 Quickstart (development)
+```
 1. Clone the repo
    git clone https://github.com/00hiba00/Django-project.git
    cd Django-project
@@ -98,6 +99,7 @@ Django-project/
    python manage.py runserver
 
 Open http://127.0.0.1:8000/ in your browser.
+```
 
 ## 🌐 URL Endpoints & Usage
 
@@ -147,3 +149,4 @@ http://127.0.0.1:8000/reservation/booking/tables/
 
 ## 🧪 Running Unit Tests
 python manage.py test
+
