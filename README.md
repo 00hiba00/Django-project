@@ -77,29 +77,41 @@ Django-project/
 ```
 
 ## 🚀 Quickstart (development)
-```
+
 1. Clone the repo
+   ```
    git clone https://github.com/00hiba00/Django-project.git
    cd Django-project
+   ```
 
 2. Create and activate a virtual environment
+   ```
    python -m venv .venv
    source .venv/bin/activate   # Windows: .venv\Scripts\activate
+   ```
 
 3. Install dependencies
+  ```
    pip install django djangorestframework djoser
+```
 
 4. Apply migrations
+   ```
    python manage.py migrate
+   ```
 
-5. Create a superuser 
+5. Create a superuser
+   ```
    python manage.py createsuperuser
+   ```
 
 6. Run the development server
+   ```
    python manage.py runserver
+   ```
 
-Open http://127.0.0.1:8000/ in your browser.
-```
+Open `http://127.0.0.1:8000/` in your browser.
+
 
 ## 🌐 URL Endpoints & Usage
 
@@ -145,8 +157,9 @@ http://127.0.0.1:8000/reservation/booking/tables/
 ```
 
 ### **Admin**
-`/admin/` : Django admin panel
+- `/admin/` → Django admin panel
 
 ## 🧪 Running Unit Tests
 python manage.py test
+
 
